@@ -6,8 +6,8 @@ namespace MvcMovie.Controllers;
 public class HelloWorldController : Controller 
 {
     //GET: /HelloWorld/
-    public String Index(){
-        return "this is my default action.";
+    public IActionResult Index(){
+        return View();
     }
 
     // GET: /HelloWorld/Welcome
@@ -15,8 +15,10 @@ public class HelloWorldController : Controller
         return "this is the welcome page.";
     }
 
-    public String Greeting(String name="Stranger", int age=18){
-        return HtmlEncoder.Default.Encode($"Hello {name}, your age is: {age}");
+    public IActionResult Greeting(String name, int numTimes=1){
+        @ViewData["Message"] = "Greeting " + name;
+        @ViewData["NumTimes"] = numTimes;
+        return View();
     }
 
     public String GetFreinds(Boolean hasFreinds, int ID){

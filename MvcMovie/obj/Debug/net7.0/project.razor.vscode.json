@@ -24060,6 +24060,16 @@
       "FilePath": "c:\\Users\\Public\\Projects\\ASP.NET\\MovieUsingMVC\\MvcMovie\\Views\\Shared\\Error.cshtml",
       "TargetPath": "Views\\Shared\\Error.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Public\\Projects\\ASP.NET\\MovieUsingMVC\\MvcMovie\\Views\\HelloWorld\\Index.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Public\\Projects\\ASP.NET\\MovieUsingMVC\\MvcMovie\\Views\\HelloWorld\\Greeting.cshtml",
+      "TargetPath": "Views\\HelloWorld\\Greeting.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
